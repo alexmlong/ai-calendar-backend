@@ -24,7 +24,11 @@ def makeGptCall(message: str) -> str:
 
 def createPrompt(planText: str) -> str:
   nowTimestamp = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now())
-  return f"It is now {nowTimestamp}. Create an array of JSON objects for Google Calendar API events in the same timezone to capture the events in this statement: {planText}."
+  return f"""
+    It is now {nowTimestamp}. Create an array of JSON objects
+    for Google Calendar API events in the same timezone
+    to capture the events in this statement: {planText}.
+  """
 
 class CalendarEvent:
   def __init__(self, summary, startTime, endTime):
