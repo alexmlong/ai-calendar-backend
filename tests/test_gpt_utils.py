@@ -4,8 +4,8 @@ import json
 
 EVENT = {
     "summary": "Gym at 11am",
-    "startTime": "12:05pm",
-    "endTime": "1:00pm"
+    "start": None,
+    "end": None,
 }
 
 def test_createPrompt():
