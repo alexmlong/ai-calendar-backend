@@ -1,7 +1,7 @@
-# ai-calendar-backend
-Backend for AI Calendar prototype
+# AI Calendar Backend
+Backend for AI Calendar prototype made in a hackathon with my girlfriend :)
 
-This provides a service which is expected to be called to from a front end app, allowing the user to convert natural language into Google calendar event JSON object via OpenAI's GPT-3 API.
+This provides a service which is expected to be called to from a front end app, allowing the user to convert natural language into Google calendar event JSON objects via OpenAI's GPT-3 API.
 
 ## Environment variables
 
