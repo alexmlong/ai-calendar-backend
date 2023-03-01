@@ -37,6 +37,9 @@ class CalendarEvent:
     self.summary = summary
     self.start = start
     self.end = end
+    
+  def toJson(self):
+      return json.dumps(self, default=lambda o: o.__dict__)
 
 def convertTextToEvents(text: str):
   prompt = createPrompt(text)
