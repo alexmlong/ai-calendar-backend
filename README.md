@@ -6,6 +6,9 @@ This provides a service which is expected to be called to from a front end app, 
 ## Environment variables
 
 - OPENAI_API_KEY: The API key to use when connecting to GPT-3
+- GOOGLE_CLIENT_ID: Client ID for Google app, e.g. 12345-abcdef.apps.googleusercontent.com
+- GOOGLE_CLIENT_SECRET: Client secret for Google app, e.g. ABC--1234_
+- GOOGLE_REDIRECT_URL: The URL for Google to redirect the user to after providing account access, e.g. http://localhost:3000/oauth2callback
 
 ## How this works
 
